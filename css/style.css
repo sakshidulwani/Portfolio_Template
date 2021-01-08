@@ -9,3 +9,16 @@
     clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0);
     position: relative;
 }
+
+.header :before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    opacity: .3;
+    z-index:-1 ;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+
+}
