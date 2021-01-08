@@ -29,7 +29,6 @@ li{ list-style: none;}
     z-index:-1 ;
     background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6  100%);
   
-
 }
 
 .navbar :before{
@@ -63,8 +62,7 @@ li{ list-style: none;}
     height: auto;
     position: absolute;
     top: 50%;
-    left: 50% ;
-    
+    left: 50% ;  
     transform: translate(-50% , -50%);
     -ms-transform: translate(-50% , -50%);
     -webkit-transform: translate(-50% , -50%);
