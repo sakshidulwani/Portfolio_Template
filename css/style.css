@@ -94,5 +94,11 @@ p{
     
     background: #fff;
     text-decoration: none;
-    box-shadow: 0 0 20px 0 rgba(0, 0 ,0, 3);
+    box-shadow: 0 0 20px 0 rgba(0, 0 ,0, 0.3);
+}
+
+.center-div p{
+    font-size: 1.3rem;
+    padding: 10px 0 20px 0;
+    color: white;
 }
