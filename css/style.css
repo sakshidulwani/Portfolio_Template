@@ -3,7 +3,7 @@
 a{ text-decoration: none;}
 
 a:hover {
-    text-decoration: none;
+    text-decoration: none ;
 }
 
 li{ list-style: none;}
@@ -27,7 +27,7 @@ li{ list-style: none;}
     right: 0;
     opacity: .3;
     z-index:-1 ;
-    background: linear-gradient(to right,  #61df91 0%, #2dc06f 0%, #45f06a 100%);
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6  100%);
   
 
 }
@@ -41,11 +41,32 @@ li{ list-style: none;}
     right: 0;
     opacity: .3;
     z-index:-1 ;
-    background: linear-gradient(to right, #61df91 0%, #2dc06f 0%, #45f06a 100%);
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
 
 }
 
 .nav-item a{
     color: #fff!important;
     font-weight: bold;
+}
+
+.header-section{
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50% ;
+    
+    transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+
 }
