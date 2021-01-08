@@ -102,3 +102,38 @@ p{
     padding: 10px 0 20px 0;
     color: white;
 }
+
+.header-extradiv{
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+}
+
+.extra-div{
+    background: #fff;
+    border: medium none;
+    padding: 50px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
