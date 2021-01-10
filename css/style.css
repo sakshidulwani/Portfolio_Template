@@ -15,12 +15,16 @@ p{
     color: #606060;
 }
 
-.extra-div h2{
+.extra-div h2 , .servicediv h2{
    font-size: 0.9rem;
    margin: 20px 0 15px 0; 
    font-weight: bold;
    line-height: 1.1;
    word-spacing: 2px;
+}
+
+.i{
+    color: #2fccd0;;
 }
 .header {
     width: 100%;
@@ -134,8 +138,43 @@ p{
 
 /* *******************offer section style ********************* */
 
+/* ******************* service offers css starts ********************* */
+ 
+.serviceoffers{
+    background: #f7f7f9;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
 
+.headings{
+    margin-bottom: 50px;
+}
 
+.headings h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.names h1{
+    color: #2e2e2e;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.service-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress{
+    height: 0.6rem!important;
+    margin-bottom: 25px!important;
+    background: #606060;
+}
+/* ******************* service offers css ends ********************* */
 
 
 
