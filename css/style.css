@@ -176,7 +176,21 @@ p{
 }
 /* ******************* service offers css ends ********************* */
 
+/* ******************* awards won css starts ********************* */
 
+.project-work{
+    margin: 100px 0;
+}
+
+.project-works h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+
+/* ******************* awards won css ends ********************* */
 
 
 
