@@ -379,13 +379,13 @@ p{
     z-index: -1;
 }
 
-.form-button{
-    border: 1px solid #fff;
+.form-button button{
+    border: 1px solid #50d1c0;
     border-radius: 100px;
     margin: 0 5px;
     padding: 12px 35px;
     outline: none;
-    color: #fff;
+    color: #50d1c0;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
@@ -393,7 +393,11 @@ p{
     background: transparent;
 }
 
-
+form:hover .form-button button{
+    background: #fff;
+    color: color #50d1c0;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
 
 
 /* ******************* contactUs css ends ********************* */
